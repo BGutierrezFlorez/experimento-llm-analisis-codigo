@@ -1,0 +1,7 @@
+caso_id,modelo,ollama_version,tipo_evaluacion,criterio,puntuacion,maximo
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,Comprensión,4,5
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,Detección de errores,3,5
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,Explicación de tipos,3,5
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,parse() y format(),2,5
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,Casos de prueba,4,5
+JAVA-001,qwen3.5:4b,0.40.16,human_orientativa,Refactorización,1,5
