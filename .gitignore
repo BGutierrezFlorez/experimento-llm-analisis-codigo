@@ -1,0 +1,22 @@
+
+# Archivos y configuraciones locales
+.env
+.env.*
+!.env.example
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+.cache/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+desktop.ini
