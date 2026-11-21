@@ -1,0 +1,1 @@
+import sqlite3def obtener_usuario(nombre_usuario):    conexion = sqlite3.connect("usuarios.db")    cursor = conexion.cursor()    consulta = "SELECT id, nombre, rol FROM usuarios WHERE nombre = '" + nombre_usuario + "'"    cursor.execute(consulta)    resultado = cursor.fetchone()    conexion.close()    return resultado
